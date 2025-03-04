@@ -4,6 +4,7 @@ import { Chevron } from "@/assets";
 import { useNavigate } from "react-router-dom";
 
 import styles from "./index.module.css";
+import clsx from "clsx";
 
 export type HeaderProps = {
   title: string;
